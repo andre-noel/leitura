@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    font-size: 12pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background: #666;
+    color: #ccc;
+}
+textarea, #dinamica {
+    font-size: 1.6em;
+    padding: 20px;
+    width: 80%;
+    height: 300px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: block;
+}
+textarea {
+    background: #999;
+    color: #ccc;
+}
+button {
+    margin: 10px auto;
+    width: 200px;
+    height: 70px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: bold;
+    background: #ccc;
+    transition: .2s all;
+}
+.play {
+    background: #2ca05a;
+}
+.pause {
+    background: #980;
+}
+.stop {
+    background: #a02c2c;
+}
+#dinamica {
+    color: #fff;
+    background-color: #2a2b2c;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    padding: 150px 20px;
+    height: 10px;
+    position: relative;
+}
+.prepare {
+  color: #999;
+}
+.slidecontainer {
+    margin:auto;
+    width: 60%;
+}
+#speed {
+    width: 100%;
+    height: 25px;
+    background: #d3d3d3;
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+}
+#speed::-webkit-slider-thumb {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #090;
+}
+#progresso {
+    width: 100%;
+    height: 10px;
+    background: #3a3b3b;
+    margin: 10px auto;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    font-size: 0.4em;
+}
+#progresso .done {
+    width: 15%;
+    height: 10px;
+    background: #fc0;
+    color: #fff;
+}
