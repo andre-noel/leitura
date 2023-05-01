@@ -5,10 +5,10 @@
 }
 body {
     font-size: 12pt;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     background: #666;
     color: #ccc;
+    font-family: 'Open Sans', sans-serif;
 }
 textarea, #dinamica {
     font-size: 1.6em;
@@ -36,13 +36,13 @@ button {
     background: #ccc;
     transition: .2s all;
 }
-.play {
+#play:enabled {
     background: #2ca05a;
 }
-.pause {
+#pause:enabled {
     background: #980;
 }
-.stop {
+#stop:enabled {
     background: #a02c2c;
 }
 #dinamica {

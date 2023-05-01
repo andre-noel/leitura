@@ -1,29 +1,22 @@
 <!doctype html>
 <html lang="pt-br ">
 <head>
-<meta charset="utf-8">
-<title>Leitura Dinâmica</title>
-<link type="text/css" rel="stylesheet" href="estilo.css">
-<script src="leitura.js" defer></script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-1058065-14"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <meta charset="utf-8">
+  <title>Leitura Dinâmica</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="estilo.css">
+  <script src="leitura.js" defer></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5LJ22HRP22"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  gtag('config', 'UA-1058065-14');
-</script>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-5LJ22HRP22"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-5LJ22HRP22');
-</script>
+    gtag('config', 'G-5LJ22HRP22');
+  </script>
 </head>
 <body>
 <div id="dinamica">
@@ -38,9 +31,9 @@
   <p class="velocity">Tempo por palavra: <span class="value">150</span>ms</p>
   <p id="tempo">&nbsp;</p>
 </div>
-<button id="play" class="play">Iniciar</button>
-<button id="pause">Pausar</button>
-<button id="stop">Parar</button>
+<button id="play">Iniciar</button>
+<button id="pause" disabled>Pausar</button>
+<button id="stop" disabled>Parar</button>
 <textarea id="texto">Você sabia que você lê muito mais rápido quando não move os olhos?
 
 Aperte o play e confira.</textarea>
