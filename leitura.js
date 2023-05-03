@@ -100,8 +100,8 @@ speed.addEventListener('change', ({ target }) => {
   tempo.innerHTML = msgSpeed(qtdPalavras, velocity.innerHTML);
 });
 
-buttonPlay.addEventListener('click', () => playReading);
-buttonPause.addEventListener('click', () => pauseReading);
-buttonStop.addEventListener('click', () => stopReading);
+buttonPlay.addEventListener('click', playReading);
+buttonPause.addEventListener('click', pauseReading);
+buttonStop.addEventListener('click', stopReading);
 
 updateProgress(0);
